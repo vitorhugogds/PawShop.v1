@@ -1,0 +1,76 @@
+header{
+}
+
+footer{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: var(--azul);
+
+}
+
+:root{
+    --azul: #6EB3D0;
+    --verde: #B6D7A8;
+    --rosa: #f7b6d2;
+    --laranja: #f4a623;
+    --preto: #000;
+    --branco: #FFFFFF;
+}
+
+h1{
+    color: white;
+}
+
+#sobre h1{
+    padding: 30px;
+    text-align: center;
+    color: var(--azul);
+}
+
+#sobre h4{
+    text-align: center;
+    padding: 15px 120px 15px 120px;
+    color: var(--azul);
+}
+
+#imgSobre{
+    display: flex;
+    justify-content: center;
+}
+
+#catalogos{
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#pacotes h1{
+    padding: 30px 0px 0px 20px;
+    text-align: center;
+    color: var(--laranja);
+}
+
+#adote{
+    display: flex;
+    padding: 40px;
+}
+#dado{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+#dado h3{
+    color: var(--azul);
+}
+
+#notificacao{
+    width: auto;
+}
+
+#notif{
+    display: flex;
+}
