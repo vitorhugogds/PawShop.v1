@@ -35,8 +35,8 @@ todosPacotes.forEach(cadaPacote => {
             <div class="card-body">
                 <h5 class="card-title">${cadaPacote.local}</h5>
                 <p class="card-text">${cadaPacote.descricao}</p>
-                <p class="card-text">${cadaPacote.preco}</p>
-                <a href="#" class="btn btn-primary">VER MAIS</a>
+                <p class="card-text text-success">${cadaPacote.preco}</p>
+                <a href="#" class="btnVM">VER MAIS</a>
             </div>
         </div>
     
